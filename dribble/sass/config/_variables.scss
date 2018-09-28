@@ -1,0 +1,23 @@
+// Colors
+$color-black: #474a50;
+$color-brown: #c3a490;
+$color-gray: #dedede;
+$color-white: #fff;
+
+// Fonts
+$font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;;
+
+// Breakpoints
+$tablet-width: 450px;
+$desktop-width: 768px;
+$max-width: 760px;
+
+// Grid configuration
+$grid-max-columns: 12 !default;
+$grid-gutter-width: 3rem !default;
+$grid-sizes: (
+  xs: 0px,
+  sm: $tablet-width,
+  md: $desktop-width,
+  lg: $max-width
+) !default;

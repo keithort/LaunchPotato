@@ -1,0 +1,37 @@
+.plans {
+  padding: 5em 0;
+
+  > div {
+    background-color: $color-white;
+    border: 1px solid $color-gray;
+    box-shadow: 0 0.5rem 4rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .rocket {
+    line-height: 0;
+  }
+
+  .details {
+    padding: 0 1em 2em;
+    text-align: center;
+  }
+
+  .platinum {
+    transform: scale(1.05);
+    @include tablet-min {
+      order: 2;
+    }
+  }
+
+  .bronze {
+    @include tablet-min {
+      order: 1;
+    }
+  }
+
+  .trial {
+    @include tablet-min {
+      order: 3;
+    }
+  }
+}

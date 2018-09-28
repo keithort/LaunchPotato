@@ -1,0 +1,26 @@
+ul,
+ol {
+  .plans & {
+    list-style-image: url('../images/checkmark-gray.png');
+    margin: 3rem 0;
+    padding-left: 3rem;
+  }
+
+  .platinum & {
+    list-style-image: url('../images/checkmark-brown.png');
+  }
+}
+li {
+  .plans & {
+    font-size: 1.3rem;
+    text-align: left;
+    
+    @include tablet-min {
+      font-size: 1.1rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}

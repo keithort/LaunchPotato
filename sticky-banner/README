@@ -1,0 +1,15 @@
+===============
+ Sticky Banner
+===============
+
+Please create a sticky banner that follow the scrolling.
+
+The requirements:
+- The target is a 300x600 banner with blue border on it.
+- Red borders are the limit for the banner. Make sure the sticky banner isn't going to overlap those borders.
+- Also make it works when the left side's height is shorter than the right side.
+- Write all your javascript codes on main.js file. You can use jQuery if you want.
+- It's okay to add attributes to existing elements (classes or ids).
+
+Watch the link below for more on how the sticky banner should be:
+https://cl.ly/111Z202E0E0A
